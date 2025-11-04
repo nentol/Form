@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulir</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <form>
+      <div class="nim-nama">
+        <div>
+          <label for="Nama">Nama:</label><br>
+          <input type="text" id="Nama" name="Nama">
+        </div>
+        <div>
+          <label for="NIM">NIM:</label><br>
+          <input type="text" id="NIM" name="NIM">
+        </div>
+      </div>
+
+      <div class="gender">
+        <p>Jenis Kelamin</p>
+        <div class="opsi">
+          <input type="radio" name="jenis_kelamin" value="Laki-laki"> Laki-laki
+          <input type="radio" name="jenis_kelamin" value="Perempuan"> Perempuan
+        </div>
+      </div>
+
+      <div class="tempat-tanggal-lahir">
+        <label for="Tempat">Tempat Lahir</label>
+        <select id="Tempat" name="Tempat">
+          <option value="Denpasar">Denpasar</option>
+          <option value="Gianyar">Gianyar</option>
+          <option value="Badung">Badung</option>
+          <option value="Karangasem">Karangasem</option>
+          <option value="Bangli">Bangli</option>
+          <option value="Klungkung">Klungkung</option>
+          <option value="Jembrana">Jembrana</option>
+          <option value="Tabanan">Tabanan</option>
+          <option value="Buleleng">Buleleng</option>
+        </select>
+        <label for="Tanggal">Tanggal Lahir</label>
+        <input type="date" id="Tanggal" name="Tanggal">
+      </div>
+
+      <div class="alamat">
+        <label for="Alamat">Alamat:</label>
+        <input type="text" id="Alamat" name="Alamat">
+      </div>
+
+      <div class="hp">
+        <label for="HP">No Handphone:</label>
+        <input type="text" id="HP" name="HP">
+      </div>
+
+      <div class="email">
+        <label for="Email">Email:</label>
+        <input type="text" id="Email" name="Email" placeholder="myistribaeksongmin@gmail.com">
+      </div>
+
+      <div class="hobi">
+        <p>Pilih Hobi:</p>
+        <div class="opsi">
+          <input type="checkbox" id="Belajar" name="Hobi" value="Belajar">
+          <label for="Belajar">Belajar</label>
+          <input type="checkbox" id="Tidur" name="Hobi" value="Tidur">
+          <label for="Tidur">Tidur</label>
+          <input type="checkbox" id="Memasak" name="Hobi" value="Memasak">
+          <label for="Memasak">Memasak</label>
+        </div>
+      </div>
+
+      <div class="kirim">
+        <button type="submit">Kirim</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Nama</th>
+          <th>NIM</th>
+          <th>Jenis Kelamin</th>
+          <th>Tempat Lahir</th>
+          <th>Tanggal Lahir</th>
+          <th>Alamat</th>
+          <th>No HP</th>
+          <th>Email</th>
+          <th>Hobi</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ganendra Aryasatya</td>
+          <td>240040074</td>
+          <td>Laki-laki</td>
+          <td>Denpasar</td>
+          <td>01-12-2005</td>
+          <td>Jl.Padma No.3, Denpasar</td>
+          <td>088219320126</td>
+          <td>ganendraaryasatya@gmail.com</td>
+          <td>Belajar, Tidur</td>
+        </tr>
+        <tr>
+          <td>Adhiatman cuki</td>
+          <td>240040018</td>
+          <td>Laki-laki</td>
+          <td>Denpasar/td>
+          <td>13-04-2006</td>
+          <td>Jl.Ahmad Yani 47, Denpasar</td>
+          <td>082345678901</td>
+          <td>adhiatman@gmail.com</td>
+          <td>Memasak, Belajar</td>
+        </tr>
+        <tr>
+          <td>Satya Devra</td>
+          <td>240040036</td>
+          <td>Laki-laki</td>
+          <td>Tabanan</td>
+          <td>17-10-2006</td>
+          <td>Jl.Subali No.14A, Tabanan</td>
+          <td>082345678901</td>
+          <td>satyadevra@gmail.com</td>
+          <td>Memasak, Belajar, Tidur</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
